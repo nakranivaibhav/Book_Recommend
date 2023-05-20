@@ -1,6 +1,6 @@
 ---
 title: Book Recommend
-emoji: 🏃
+emoji: 📖
 colorFrom: yellow
 colorTo: red
 sdk: gradio
