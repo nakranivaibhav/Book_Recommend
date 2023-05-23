@@ -1,0 +1,5 @@
+gradio
+faiss
+numpy
+sentence_transformers
+pandas

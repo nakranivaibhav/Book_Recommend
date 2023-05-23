@@ -8,6 +8,7 @@ import pandas as pd
 # load resources
 df = pd.read_csv('final_2.csv')
 model = SentenceTransformer('all-MiniLM-L6-v2')
+model.save('/Users/vaibhav/Book_Recommend/model')
 index = faiss.read_index('index_file')
 
 # map each document ID to its index in the original dataframe
